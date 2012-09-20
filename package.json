@@ -1,0 +1,36 @@
+{
+  "name": "getjson",
+  "version": "0.0.1",
+  "description": "Simply make a request to a JSON service",
+  "keywords": [
+    "json",
+    "request",
+    "http"
+  ],
+  "author": {
+    "name": "Matt Null",
+    "email": "me@mattnull.com"
+  },
+  "contributors": [
+    {
+      "name": "Matt Null",
+      "email": "me@mattnull.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattnull/getJSON"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+  },
+  "_id": "socket.io@0.9.10",
+  "_from": "socket.io"
+}

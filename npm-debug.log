@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', 'getjson' ]
+2 info using npm@1.1.33
+3 info using node@v0.8.1
+4 verbose config file /Users/mattnull/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose publish [ 'getjson' ]
+8 verbose read json /Users/mattnull/Dropbox/Projects/nodemodules/getJSON/getjson/package.json
+9 verbose cache add [ 'getjson', null ]
+10 silly cache add name=undefined spec="getjson" args=["getjson",null]
+11 verbose parsed url { pathname: 'getjson', path: 'getjson', href: 'getjson' }
+12 verbose lock getjson /Users/mattnull/.npm/1d77bf2d379d687bd22d386911a97a0f4a3a6358-getjson.lock
+13 verbose read json getjson/package.json
+14 verbose addNamed [ 'getjson', '' ]
+15 verbose addNamed [ null, '' ]
+16 verbose lock getjson@ /Users/mattnull/.npm/23417f516c3a7b4613a40c025c612c4ca00550ab-getjson-.lock
+17 silly addNameRange { name: 'getjson', range: '', hasData: false }
+18 verbose url raw getjson
+19 verbose url resolving [ 'https://registry.npmjs.org/', './getjson' ]
+20 verbose url resolved https://registry.npmjs.org/getjson
+21 info retry registry request attempt 1 at 11:03:09
+22 http GET https://registry.npmjs.org/getjson
+23 http 404 https://registry.npmjs.org/getjson
+24 silly registry.get cb [ 404,
+24 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+24 silly registry.get     date: 'Thu, 20 Sep 2012 17:03:10 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'cache-control': 'must-revalidate' } ]
+25 error 404 'getjson' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Darwin 12.1.0
+27 error command "node" "/usr/local/bin/npm" "publish" "getjson"
+28 error cwd /Users/mattnull/Dropbox/Projects/nodemodules/getJSON
+29 error node -v v0.8.1
+30 error npm -v 1.1.33
+31 error code E404
+32 error message 404 Not Found: getjson
+33 verbose exit [ 1, true ]
